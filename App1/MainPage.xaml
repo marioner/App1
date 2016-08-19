@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="boton1" Content="Aparece (click aqui)" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="18" Click="boton1_Click"/>
+        <TextBlock x:Name="bloqueNombre" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" FontSize="86.667" FontFamily="Bradley Hand ITC" Foreground="Aquamarine" FontWeight="Bold"/>
+        <Button x:Name="boton2" Content="Desaparece (click aqui)" HorizontalAlignment="Right" Margin="0,0,50,50" VerticalAlignment="Bottom" FontFamily="Arial Black" FontSize="18" Click="boton2_Click"/>
+
+    </Grid>
+</Page>
